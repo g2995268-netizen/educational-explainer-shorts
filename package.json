@@ -1,0 +1,17 @@
+{
+  "name": "educational-explainer-shorts",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "preview": "remotion render src/index.ts MicroplasticBlood out/microplastic-blood-540x960.mp4 --scale=0.5",
+    "still": "remotion still src/index.ts MicroplasticBlood"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.540",
+    "@types/react": "19.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.540",
+    "typescript": "5.6.3"
+  }
+}
